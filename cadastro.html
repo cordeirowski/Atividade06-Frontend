@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- <fieldset>
+        <legend>Dados Pessoais</legend>
+        <input type="text" name="nomeCompleto" title="Escreva seu nome:">
+
+    </fieldset> -->
+    <fieldset>
+        <legend id="legend1">Dados Pessoais</legend>
+        <label for="Nome">Nome Completo: <br>
+            <input type="text" name="nome" id="nome" required maxlength="100">
+        </label>
+        <br>
+        <br>
+        <label for="Contato" name="Contato">Contato: <br>
+            <input type="number" id="contato" max="999999999999" min="000000000000" required >
+        </label>
+        <br>
+        <br>
+        <label for="email" name="email"> Email: <br>
+            <input type="email" id="email" required>
+        </label>
+        <br>
+        <br>
+        <label for="endereço" name="endereço"> Endereço: <br>
+            <input type="text" id="endereço">
+        </label>
+        <br>
+        <br>
+        <label for="cep" name="cep"> Cep: <br>
+            <input type="number" id="cep" max="99999999" min="00000000" maxlength="8" minlength="8">
+        </label>
+        <br>
+        <br>
+        <label for="Nascimento" name="Nascimento"> Data de Nascimento: <br>
+            <input type="date" id="Nascimento" min="2004-01-29">
+        </label>
+   
+    
+        <legend id="legend2">Dados Escolares</legend>
+        <div id="curso1">
+            Nome do Curso:
+            <input type="text" required> <br>
+            Horas de Curso:
+            <input type="time" required> <br>
+            Data do Curso:
+            <input type="month" required min="2015-02">
+
+
+        </div> <br>
+        <div id="curso2">
+            Nome do Curso:
+            <input type="text" required> <br>
+            Horas de Curso:
+            <input type="time" required> <br>
+            Data do Curso:
+            <input type="month" required min="2015-02">
+
+
+        </div> <br>
+
+
+        <div id="curso3">
+            Nome do Curso:
+            <input type="text" required> <br>
+            Horas de Curso:
+            <input type="time" required> <br>
+            Data do Curso:
+            <input type="month" required min="2015-02">
+
+
+        </div> <br>
+        
+        <!-- <label name="curso" id="curso1">Curso 1: <br>
+            
+        </label>
+        <br> <br>
+        <label for="curso" name="curso" id="curso2">Curso 2: <br>
+            Nome do Curso:
+            <input type="text" required> <br>
+            Horas de Curso:
+            <input type="time" required> <br>
+            Data do Curso:
+            <input type="month" name="data" required min="2015">
+        </label>
+        <br> <br>
+        <label for="curso" name="curso" id="curso3">Curso 3: <br>
+            Nome do Curso:
+            <input type="text" required> <br>
+            Horas de Curso:
+            <input type="time" required> <br>
+            Data do Curso:
+            <input type="month" required min="2015">
+        </label> -->
+    
+    
+        <legend id="legend3">Dados Profissionais</legend>
+    <label for="empresa" nome="empresa">Empresa 1:
+        Nome da Empresa:
+        <input type="text" required> <br>
+        Atual:
+        <select name="atual" id="">
+            <option value="selecione">sim</option>
+            
+            <option value="selecione">não</option>
+        </select> <br>
+        Tempo de trabalho:
+        <input type="date" required> Até <input type="date" required max="2022-01-29"> <br>
+        Cargo:
+        <input type="text"> <br>
+        Descrição:
+        <textarea name="" id="" cols="10" rows="5"></textarea>
+
+
+    </label> <br> <br>
+    <label for="empresa" nome="empresa" id="empresa2">Empresa 2:
+        Nome da Empresa:
+        <input type="text" required> <br>
+        Atual:
+        <select name="atual" id="">
+            
+            <option value="selecione">sim</option>
+            <option value="selecione">não</option>
+        </select> <br>
+        Tempo de trabalho:
+        <input type="date" required> Até <input type="date" required> <br>
+        Cargo:
+        <input type="text"> <br>
+        Descrição:
+        <textarea name="" id="" cols="10" rows="5"></textarea>
+
+
+    </label> <br> <br>
+    <label for="empresa" nome="empresa">Empresa 3:
+        Nome da Empresa:
+        <input type="text" required> <br>
+        Atual:
+        <select name="atual" id="">
+           
+            <option value="selecione">sim</option>
+            <option value="selecione">não</option>
+        </select> <br>
+        Tempo de trabalho:
+        <input type="date" required> Até <input type="date" required> <br>
+        Cargo:
+        <input type="text"> <br>
+        Descrição:
+        <textarea name="" id="" cols="10" rows="5"></textarea>
+
+
+    </label> <br>
+
+    <label for="checkbox" name>
+        <input type="checkbox"> <a href=""> Declaro que LI as regras</a>
+    </label> <br>
+
+    <form action="">
+        <input type="submit">
+    </form>
+    
+
+    </fieldset>
+
+    
+
+
+    
+</body>
+</html>

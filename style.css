@@ -1,0 +1,111 @@
+body{
+    background: linear-gradient(to right,blue,aqua);
+}
+aside{
+    background-color: aqua;
+    border-radius: 15vh;
+}
+
+
+ul {
+    position: relative;
+    margin: 0;
+    padding: 10vh;
+    display: flex;
+    
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    width: 10vw;
+    height: 10vh;
+    margin: 0 15vh;
+    transform: rotate(0deg) skew(0deg);
+    background:#ccc;
+    border-radius: 24px;
+   
+}
+
+ul li span {
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    background: #000;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: rgb(252, 248, 248);
+    font-size: 35px !important;
+    border-radius: 24px;    
+}
+
+ul li:hover span
+{
+    box-shadow: -1px 1px 1px pink;
+}
+
+ul li:hover span:nth-child(6)
+{
+    transform: translate(50px, -50px);
+    opacity: 1;
+}
+
+ul li:hover span:nth-child(5)
+{
+    transform: translate(40px, -40px);
+    opacity: 0.8;
+}
+
+ul li:hover span:nth-child(4)
+{
+    transform: translate(30px, -30px);
+    opacity: 0.6;
+}
+
+ul li:hover span:nth-child(3)
+{
+    transform: translate(20px, -20px);
+    opacity: 0.4;
+}
+
+ul li:hover span:nth-child(2)
+{
+    transform: translate(10px,-10px);
+    opacity: .2;
+}
+
+ul li:hover span:nth-child(1)
+{
+    transform: translate(0,0);
+    opacity: .1;
+}
+
+ul li:nth-child(1) span
+{
+    background: linear-gradient(to top,blue,rgb(255, 60, 0));
+    
+}
+
+ul li:nth-child(2) span
+{
+    background: linear-gradient(to top,orange,red)    
+}
+ul li:nth-child(3) span
+{
+    background: linear-gradient(to top,blueviolet,pink)
+}
+ul li:nth-child(4) span
+{
+    background: linear-gradient(to top,rgb(226, 43, 43),pink)
+}
+ul li:nth-child(5) span
+{
+    background: linear-gradient(to top,rgb(247, 174, 17),pink)
+}
+ul li:nth-child(6) span
+{
+    background: linear-gradient(to top,rgb(17, 124, 247),pink)
+}
+
